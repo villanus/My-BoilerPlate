@@ -1,0 +1,14 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "window.zoomLevel": 0,
+    "files.autoSave": "off",
+    "editor.minimap.enabled": true,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
+    "workbench.sideBar.location": "left",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Dracula",
+    "editor.cursorStyle": "line",
+    "zenMode.hideTabs": false,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true
+}
