@@ -12,6 +12,6 @@
     "workbench.activityBar.visible": true,
     "workbench.statusBar.visible": true,
     "explorer.openEditors.visible": 0,
-    "css.colorDecorators.enable":false,
-    "svgviewer.previewcolumn": "SVG",
+    "css.colorDecorators.enable":false
+   
 }
