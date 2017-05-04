@@ -1,20 +1,12 @@
-Copyright - Matador INC
-================================
 
-All Rights Reserved
--------------------
+# COPYRIGHT Matador INC - All Rights Reserved
 
-
-----------
-
-
+---
 > **Unauthorized copying of this file, via any medium is strictly prohibited.** 
-> Proprietary and confidential
+> * Proprietary and confidential
+> * All Rights Reserved
+> * No Use Rights Granted
 
+---
 
-----------
-
-[https://matador-inc.com](https://matadorinc.com)
-
-
-
+[Copyright (c) - Matador INC](https://matadorinc.com)
