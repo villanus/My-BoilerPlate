@@ -13,6 +13,7 @@
     "workbench.statusBar.visible": true,
     "explorer.openEditors.visible": 0,
     "css.colorDecorators.enable":false,
+      "editor.rulers": [1],
 
     //Todo settings configuraiton
     "todohighlight.isEnable": true, //toggle the highlight, default is true
@@ -23,7 +24,7 @@
             "text": "NOTE:", // custom text to be highlighted
             "color": "black", // the text color, any css color identifier is valid
             "backgroundColor": "yellow", // the text background color
-            "overviewRulerColor": "grey" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+            "overviewRulerColor": "red" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
         },
         {
             "text": "TODO:",
