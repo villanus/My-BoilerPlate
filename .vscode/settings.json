@@ -1,50 +1,58 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    "window.zoomLevel": 0,
-    "files.autoSave": "off",
-    "editor.minimap.enabled": true,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
-    "workbench.sideBar.location": "left",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Dracula",
-    "editor.cursorStyle": "line",
-    "zenMode.hideTabs": false,
-    "workbench.activityBar.visible": true,
-    "workbench.statusBar.visible": true,
-    "explorer.openEditors.visible": 0,
-    "css.colorDecorators.enable":false,
-      "editor.rulers": [1],
+	"window.zoomLevel": 0,
+	"files.autoSave": "off",
+	"editor.minimap.enabled": true,
+	"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
+	"workbench.sideBar.location": "left",
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.colorTheme": "Dracula",
+	"editor.cursorStyle": "line",
+	"zenMode.hideTabs": false,
+	"workbench.activityBar.visible": true,
+	"workbench.statusBar.visible": true,
+	"explorer.openEditors.visible": 0,
+	"css.colorDecorators.enable": false,
+	"editor.rulers": [],
+	"editor.overviewRulerBorder": false,
+	"markdown.styles": [".\\.vscode\\md.css"],
+    "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
 
-    //Todo settings configuraiton
-    "todohighlight.isEnable": true, //toggle the highlight, default is true
-    "todohighlight.isCaseSensitive": false, //whether the keywords are case sensitive or not
-    "todohighlight.highlightWholeLine": true, //highlight whole line instead of keyword only
-    "todohighlight.keywords": [
-        {  
-            "text": "NOTE:", // custom text to be highlighted
-            "color": "black", // the text color, any css color identifier is valid
-            "backgroundColor": "yellow", // the text background color
-            "overviewRulerColor": "red" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
-        },
-        {
-            "text": "TODO:",
-            "color": "white",
-            "backgroundColor": "rgba(0,0,0,.2)"
-        },
-          {
-            "text": "HACK:",
-            "color": "green",
-            "backgroundColor": "black"
-        }
-       
-    ],
-    "todohighlight.defaultStyle": { //specify the default style for custom keywords, if not specified, build in default style will be applied
-        "color": "#efefef",
-        "backgroundColor": "rgba(0,0,0,.2)",
-        "overviewRulerColor": "grey"
-    },
-    "todohighlight.include": "{**/*.js,**/*.jsx,**/*.ts,**/*.html,**/*.php,**/*.css,**/*.scss}", //A glob pattern that defines the files to search for. Only include files you need, DO NOT USE `{**/*.*}` for both permormance and avoiding binary files reason
-    "todohighlight.exclude": "{**/node_modules/**,**/bower_components/**,**/dist/**,**/build/**,**/.vscode/**,**/_output/**,**/*.min.*,**/*.map}",//A glob pattern that defines files and folders to exclude while listing annotations
-    "todohighlight.maxFilesForSearch": 5120,//Max files for searching, mostly you don't need to configure this
-    "todohighlight.toggleURI": false,//If the file path within the output channel not clickable, set this to true to toggle the path patten between `<path>#<line>` and `<path>:<line>:<column>`
+	//Todo settings configuraiton
+	"todohighlight.isEnable": true, //toggle the highlight, default is true
+	"todohighlight.isCaseSensitive": false, //whether the keywords are case sensitive or not
+	"todohighlight.highlightWholeLine": true, //highlight whole line instead of keyword only
+	"todohighlight.keywords": [{
+			"text": "NOTE:", // custom text to be highlighted
+			"color": "black", // the text color, any css color identifier is valid
+			"backgroundColor": "yellow", // the text background color
+			"overviewRulerColor": "red" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+		},
+		{
+			"text": "TODO:",
+			"color": "white",
+			"backgroundColor": "rgba(0,0,0,.2)"
+		},
+		{
+			"text": "HACK:",
+			"color": "green",
+			"backgroundColor": "black"
+		}
+
+	],
+	"todohighlight.defaultStyle": { //specify the default style for custom keywords, if not specified, build in default style will be applied
+		"color": "#efefef",
+		"backgroundColor": "rgba(0,0,0,.2)",
+		"overviewRulerColor": "grey"
+	},
+	"todohighlight.include": "{**/*.js,**/*.jsx,**/*.ts,**/*.html,**/*.php,**/*.css,**/*.scss}", //A glob pattern that defines the files to search for. Only include files you need, DO NOT USE `{**/*.*}` for both permormance and avoiding binary files reason
+	"todohighlight.exclude": "{**/node_modules/**,**/bower_components/**,**/dist/**,**/build/**,**/.vscode/**,**/_output/**,**/*.min.*,**/*.map}", //A glob pattern that defines files and folders to exclude while listing annotations
+	"todohighlight.maxFilesForSearch": 5120, //Max files for searching, mostly you don't need to configure this
+	"todohighlight.toggleURI": false, //If the file path within the output channel not clickable, set this to true to toggle the path patten between `<path>#<line>` and `<path>:<line>:<column>`
 }

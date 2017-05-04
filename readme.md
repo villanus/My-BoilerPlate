@@ -1,12 +1,13 @@
-# Project Name
+# BOILER PLATE
 
-> Project Description
+> Project Description: markup language is
+designed to be easy to read, write, and understand. It succeeds - and its
+flexibility is both a benefit and a drawback. Many styles are possible, so
+formatting can be inconsistent. Some constructs don't work well in all
+parsers and should be avoided. The
 
-[![npm version][npm-image]][npm-url]
-[![GitHub tag][github-tag-image]][github-tag-url]
-[![Build status][travis-image]][travis-url]
-[![Coverage][coveralls-image]][coveralls-url]
-[![License][license-image]][license-url]
+
+
 
 ## Install
 
