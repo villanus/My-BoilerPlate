@@ -16,13 +16,33 @@
 	"editor.rulers": [],
 	"editor.overviewRulerBorder": false,
 	"markdown.styles": [".\\.vscode\\md.css"],
+    // Show Everything  (REMOVE .OLD )
+        "files.exclude.OLD": {
+            "**/.git": false,
+            "**/.svn": false,
+            "**/.hg": false,
+            "**/CVS": false,
+            "**/.DS_Store": false
+        },
+    
+    // Show Only important folders
     "files.exclude": {
-    "**/.git": false,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true
-  },
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        ".vscode":true,
+        "*.ico":true,
+        // "node_modules":true,
+        ".gitignore":true,
+        ".gitattributes":true,
+        "Desktop.ini":true,
+        ".editorconfig":true,
+
+
+    }, 
+
 
 	//Todo settings configuraiton
 	"todohighlight.isEnable": true, //toggle the highlight, default is true
